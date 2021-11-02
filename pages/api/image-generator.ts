@@ -262,7 +262,7 @@ const getHTML = ( username ) => `
     <div class="container">
       <header>
         <div class="forma1"></div>
-        <img src="${'./ctd.png'}"/>
+        <img src="https://raw.githubusercontent.com/igorcesarcode/gerador-de-imagens/master/pages/api/ctd.png"/>
         <div class="forma2"></div>
       </header>
 
@@ -276,7 +276,7 @@ const getHTML = ( username ) => `
         <p>${username.bio}</p>
       </div>
       <footer>
-        <img src="logo-DH.png" alt="" srcset="" />
+        <img src="https://raw.githubusercontent.com/igorcesarcode/gerador-de-imagens/master/pages/api/logo-DH.png" />
       </footer>
     </div>
   </body>
