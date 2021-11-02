@@ -273,7 +273,7 @@ const getHTML = ( username ) => `
         <img src="${username.avatar_url}" alt="" srcset="" />
         <h2>${username.name}</h2>
         <h3><i class="fab fa-github"></i> @${username.login}</h3>
-        <p>${username.bio}</p>
+        <p>${username.bio === null ? '' : username.bio}</p>
       </div>
       <footer>
         <img src="https://raw.githubusercontent.com/igorcesarcode/gerador-de-imagens/master/pages/api/logo-DH.png" />
